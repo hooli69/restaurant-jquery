@@ -13,3 +13,53 @@
  *= require_tree .
  *= require_self
  */
+
+*{
+	font-family     : 'Roboto Condensed', sans-serif;
+	background-color: #8be0de;
+	color           : white;
+	
+}
+
+.contenu{
+	display: flex;
+	justify-content: center;
+	margin   : 0 20% 0 20%;
+}
+
+h1{
+	text-align : center;
+	font-size  : 4em;
+	color      : cadetblue;
+	text-shadow:2px 2px 10px white;
+}
+
+h2{
+	font-size: 3em;
+	color: cadetblue;
+	text-align : center;
+}
+
+h3{
+	font-size: 2em;
+}
+
+#text1, #text2, #text3{
+	display: none;
+}
+
+button, h3{
+	border          :none;
+	background-color: cadetblue;
+	margin          : 10px;
+	padding         : 3px 3px;
+}
+
+button{
+}
+
+#content, #content2, #content3{
+
+}
+
+
