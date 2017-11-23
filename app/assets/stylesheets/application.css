@@ -46,6 +46,7 @@ h3{
 
 #text1, #text2, #text3{
 	display: none;
+	font-size: 2em;
 }
 
 button, h3{
